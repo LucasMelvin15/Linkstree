@@ -1,0 +1,48 @@
+body{
+    background-color: #708090;
+}
+.profile-picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 200px;
+    border-radius: 50%;
+}
+.profile-name{
+    text-align: center;
+    padding: 15px;
+    font-size: 30px;
+}
+.profile-name p{
+    font-size: 25px;
+}
+.links{
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid red;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: color 1s;
+}
+a:hover{
+    color: orange;
+    background: white;
+}
+.fa-brands{
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+   padding-top: 5px;
+   
+}
