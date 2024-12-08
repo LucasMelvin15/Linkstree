@@ -1,5 +1,6 @@
 body{
-    background-color: #708090;
+    background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+    font-family: 'Open Sans', sans-serif;
 }
 .profile-picture{
     display: block;
@@ -14,6 +15,7 @@ body{
     text-align: center;
     padding: 15px;
     font-size: 30px;
+    margin-top: 20px;
 }
 .profile-name p{
     font-size: 25px;
@@ -31,6 +33,8 @@ body{
     margin-right: auto;
     border-radius: 40px;
     font-size: 16px;
+    align-items: center; 
+    padding: 10px;
 }
 a{
     text-decoration: none;
@@ -41,10 +45,11 @@ a:hover{
     color: orange;
     background: white;
 }
-.fa-brands{
-   display: flex;
-   align-items: flex-start;
-   justify-content: center;
-   padding-top: 5px;
-   
+.fa-brands {
+    display: flex;
+    align-items: center; /* Ensures that the icon and text are aligned */
+    justify-content: center;
+    padding-top: 5px;
+    margin-right: 10px; /* Optional: adds a little space between the icon and text */
 }
+   
